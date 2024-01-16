@@ -13,6 +13,6 @@ const Product = db.define('product',{
 
 export default Product;
 
-(async()=>{
-    await db.sync();
-})();
+// (async()=>{
+//     await db.sync();
+// })();
